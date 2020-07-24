@@ -1,0 +1,37 @@
+{
+	"name": "scrappr",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./dist/index.js",
+		"build": "tsc",
+		"dev": "nodemon -x ts-node src/index.ts",
+		"test": "jest --no-cache --detectOpenHandles --runInBand --forceExit --verbose",
+		"test:watch": "jest --runInBand --detectOpenHandles --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dbytecoderc/scrappr.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dbytecoderc/scrappr/issues"
+	},
+	"homepage": "https://github.com/dbytecoderc/scrappr#readme",
+	"dependencies": {
+		"@types/express": "^4.17.7",
+		"@types/ioredis": "^4.17.2",
+		"@types/puppeteer": "^3.0.1",
+		"@types/valid-url": "^1.0.3",
+		"express": "^4.17.1",
+		"ioredis": "^4.17.3",
+		"nodemon": "^2.0.4",
+		"puppeteer": "^5.2.1",
+		"ts-node": "^8.10.2",
+		"ts-node-dev": "^1.0.0-pre.52",
+		"typescript": "^3.9.7",
+		"valid-url": "^1.0.9"
+	}
+}
